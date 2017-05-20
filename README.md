@@ -24,6 +24,8 @@
     transition.delegate = self;
     [views.layer addAnimation:transition forKey:nil];
 }
+@property (nonatomic, strong) UIDocumentInteractionController *documentInteractionController;
+
 
 if (self.pdfURL) {
         self.documentInteractionController
