@@ -25,4 +25,8 @@
     [views.layer addAnimation:transition forKey:nil];
 }
 
-
+if (self.pdfURL) {
+        self.documentInteractionController
+        = [UIDocumentInteractionController interactionControllerWithURL:self.pdfURL];
+        [self.documentInteractionController presentOpenInMenuFromBarButtonItem:sender animated:YES];
+    }
