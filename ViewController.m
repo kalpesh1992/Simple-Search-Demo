@@ -67,6 +67,12 @@
 //    
 //    // This is equivalent to creating the full reference
 //    spaceRef = [storage referenceForURL:@"gs://<your-firebase-storage-bucket>/images/space.jpg"];
+
+//     NSURL *url = [NSURL URLWithString:PRIVACYANDPOLICY];
+    
+//     if (![[UIApplication sharedApplication] openURL:url]) {
+//        NSLog(@"%@%@",@"Failed to open url:",[url description]);
+//     }
 //}
 
 
